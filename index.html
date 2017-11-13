@@ -62,7 +62,7 @@ circle {
 
 </style>
 
-<svg width="750" height="500"></svg>
+<svg width="750" height="250"></svg>
 
 
 <script id="grid" type="text/plain">
@@ -118,11 +118,49 @@ state.append("rect")
 state.append("text")
     .attr("dy", ".35em")
     .text(function(d) { return d.name; });
+
+</script>
+
+
+<div><h6>
+    
+
+
+<blockquote>
+
+<a href="http://www.thisisinsider.com/happiest-states-in-the-us-2017-9" target= "new"> 
+
+data from http://www.thisisinsider.com/
+
+</a>
+    </blockquote>
+
+
+
+</h6></div>
     
     
     
-    var width = Math.max(960, innerWidth),
-    height = Math.max(500, innerHeight);
+<!--
+    
+    <svg width="100%" height="105">
+    <rect x="2" y="2" width="100" height="100" style="stroke: #333; stroke-width: 3; fill: FireBrick;"/>
+    <rect x="120" y="2" width="200" height="100" style="stroke: #333; stroke-width: 3; fill: LightSkyBlue;"/>
+    
+    
+    
+    
+</svg>
+-->
+   
+   
+<!--   <hr>-->
+    
+<script>
+ 
+    
+var width = Math.max(960, innerWidth),
+    height = Math.max(250, innerHeight);
 var i = 0;
 var svg = d3.select("body").append("svg")
     .attr("width", width)
@@ -148,29 +186,14 @@ function particle() {
   d3.event.preventDefault();
 }
     
-
 </script>
 
 
-<div><h6>
-    
-
-
-<blockquote>
-
-<a href="http://www.thisisinsider.com/happiest-states-in-the-us-2017-9" target= "new"> 
-
-data from http://www.thisisinsider.com/
-
-</a>
-    </blockquote>
 
 
 
-</h6></div>
-    
-    
-    
+
+
 
 
 	</body>
